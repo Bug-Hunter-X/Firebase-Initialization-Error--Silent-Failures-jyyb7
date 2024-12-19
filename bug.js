@@ -1,0 +1,1 @@
+The Firebase SDKs might throw an error if the app is not properly initialized before accessing Firebase services. This can manifest as silent failures or unexpected behavior.  Ensure that Firebase.initializeApp() is called and completed successfully before other Firebase functions.
